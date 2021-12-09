@@ -1,0 +1,26 @@
+package main;
+
+
+class Stud{
+	String Name;
+	Long Phoneno;
+	Long Email;
+	String Gender;
+	public Stud(String Name,Long Phoneno,Long Email,String Gender){
+	super();
+	this.Name=Name;
+	this.Phoneno=Phoneno;
+	this.Email=Email;
+	this.Gender=Gender;
+}
+}
+public class Collections{
+	public static void main(String[] args){
+		List<Students>list=new ArrayList<Stud>();
+	list.add(new Stud("kumar",231,"mac@mail.com","Male"));
+	list.add(new Stud("sri",158,"sri@mail.com","Female"));	
+	list.add(new Stud("devi",178,"devi@mail.com","Female"));
+	
+	 Stream<Student> filtered_data = list.stream().filter(s -> s.Phone(desc));
+	}
+}

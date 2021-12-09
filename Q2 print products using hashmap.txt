@@ -1,0 +1,42 @@
+package main;
+
+import java.util.HashMap;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		//create hashmap
+		HashMap p=new HashMap();
+		//adding elments into hash
+		p.put("Dell",1);
+		p.put("Lenovo",2);
+		p.put("Realme",3);
+		p.put("Hp",4);
+		p.put("Samsung",5);
+		p.put("Redmi",6);
+		p.put("Acer",7);
+		p.put("Toshiba",8);
+		p.put("Apple",9);
+		p.put("Pixel",10);
+		p.put("Hp",11);
+
+		System.out.println(p);
+
+		//print the keys
+		Set s=p.keySet();
+		System.out.println("keys are"+s);
+		//print values
+		Collection c=p.values();
+		System.out.println("Values are "+c);
+		//print key value pairs 
+		Set s2=p.entrySet();
+		System.out.println("key value pair sare"+s2);
+	
+	}
+	
+		
+		
+	
+}
